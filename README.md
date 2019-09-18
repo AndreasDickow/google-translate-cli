@@ -4,11 +4,11 @@ Translate texts using Google Translate from your terminal.
 
 ## Installation
 ```
-npm install -g google-translate-cli
+npm install -g google-translate-cli-multi
 ```
 ## Usage overview
 ```
-  Usage: translate [options] <text ...>
+  Usage: translate-m [options] <text ...>
 
   Options:
 
@@ -22,10 +22,10 @@ npm install -g google-translate-cli
 
   Examples:
 
-     $ translate 'I want to translate this text'
-     $ translate -s es -t en,it 'Quiero traducir este texto'
-     $ translate -s en -t es,de I want to translate this text
-     $ translate -a 'Au revoir' -d
+     $ translate-m 'I want to translate this text'
+     $ translate-m -s es -t en,it 'Quiero traducir este texto'
+     $ translate-m -s en -t es,de I want to translate this text
+     $ translate-m -a 'Au revoir' -d
      $ pbpaste | translate # when text stored in Mac clipboard
 ```
 Translations from English to Spanish by default.
