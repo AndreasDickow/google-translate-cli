@@ -18,13 +18,13 @@ npm install -g google-translate-cli
     -d, --details            View details
     -l, --list               List all available languages
     -s, --source [language]  Source language [en]
-    -t, --target [language]  Target language [es]
+    -t, --target [language],[language],[language]  Target languages [es]
 
   Examples:
 
      $ translate 'I want to translate this text'
-     $ translate -s es -t en 'Quiero traducir este texto'
-     $ translate -s en -t es I want to translate this text
+     $ translate -s es -t en,it 'Quiero traducir este texto'
+     $ translate -s en -t es,de I want to translate this text
      $ translate -a 'Au revoir' -d
      $ pbpaste | translate # when text stored in Mac clipboard
 ```

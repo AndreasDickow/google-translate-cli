@@ -2,7 +2,7 @@
   "name": "google-translate-cli",
   "version": "1.1.1",
   "description": "Google Translate via CLI.",
-  "author": "Jesús Alberto Polo García <japologarcia@gmail.com>",
+  "author": "Andreas Dickow <andreas@bizfactory.tech>",
   "contributors": [
     {
       "name" : "Brian Prodoehl",
@@ -13,9 +13,12 @@
     }, {
       "name" : "michaelsavich",
       "url" : "https://github.com/michaelsavich"
+    }, {
+      "name" : "Andreas Dickow",
+      "url" : "https://github.com/AndreasDickow"
     }
   ],
-  "homepage" : "https://github.com/jesusalber1/google-translate-cli",
+  "homepage" : "https://github.com/AndreasDickow/google-translate-cli",
   "main": "lib/translate.js",
   "preferGlobal": true,
   "bin": {
@@ -27,7 +30,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jesusalber1/google-translate-cli.git"
+    "url": "https://github.com/AndreasDickow/google-translate-cli"
   },
   "keywords": [
     "google",
