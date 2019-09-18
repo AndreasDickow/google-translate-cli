@@ -1,28 +1,19 @@
 {
-  "name": "google-translate-cli",
-  "version": "1.0.0",
+  "name": "google-translate-cli-multi",
+  "version": "1.0.2",
   "description": "Google Translate via CLI.",
   "author": "Andreas Dickow <andreas@bizfactory.tech>",
   "contributors": [
-    {
-      "name" : "Brian Prodoehl",
-      "url" : "https://github.com/bprodoehl"
-    }, {
-      "name" : "laggingreflex",
-      "url" : "https://github.com/laggingreflex"
-    }, {
-      "name" : "michaelsavich",
-      "url" : "https://github.com/michaelsavich"
-    }, {
-      "name" : "Andreas Dickow",
-      "url" : "https://github.com/AndreasDickow"
-    }
+    "Brian Prodoehl (https://github.com/bprodoehl)",
+    "laggingreflex (https://github.com/laggingreflex)",
+    "michaelsavich (https://github.com/michaelsavich)",
+    "Andreas Dickow (https://github.com/AndreasDickow)"
   ],
-  "homepage" : "https://github.com/AndreasDickow/google-translate-cli",
+  "homepage": "https://github.com/AndreasDickow/google-translate-cli",
   "main": "lib/translate-m.js",
   "preferGlobal": true,
   "bin": {
-    "translate": "lib/translate-m.js"
+    "translate-m": "lib/translate-m.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,7 +21,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AndreasDickow/google-translate-cli"
+    "url": "git+https://github.com/AndreasDickow/google-translate-cli.git"
   },
   "keywords": [
     "google",
@@ -40,5 +31,11 @@
   "dependencies": {
     "commander": "^2.9.0",
     "request": "^2.72.0"
+  },
+  "bugs": {
+    "url": "https://github.com/AndreasDickow/google-translate-cli/issues"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
